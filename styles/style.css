@@ -1,0 +1,15 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+/* 
+Selected Fonts:
+font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace;
+*/
+
+
+.heading{
+    margin-left: 77px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
