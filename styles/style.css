@@ -60,3 +60,43 @@ font-family: 'Space Mono', monospace;
     letter-spacing: -0.49px;
     text-transform: uppercase;
 }
+
+/* Mobile Responsive */
+    @media screen and (max-width: 576px) {
+    .heading{
+        margin-left: 24px;
+    }
+
+    .section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .div-1 img{
+        width: 350px;
+        gap: 60px;
+    }
+
+    .div-2 h1{
+        color: var(--Gray-1, #333);
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.68px;
+        width: 350px;
+    }
+
+    .div-2 p{
+        color: var(--Gray-2, #4F4F4F);
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px;
+    }
+}
